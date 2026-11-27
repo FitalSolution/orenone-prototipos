@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Protótipos OrenOn™ · acesso restrito</title>
+<style>
+:root { color-scheme: light dark; }
+body { margin: 0; min-height: 100vh; display: grid; place-items: center; font: 16px/1.5 system-ui, sans-serif; background: #f4f6f8; color: #1f2933; }
+main { max-width: 360px; padding: 24px; }
+label { display: block; font-weight: 600; margin-bottom: 6px; }
+input { width: 100%; box-sizing: border-box; padding: 10px; border: 1px solid #8a94a3; border-radius: 6px; font: inherit; }
+input:focus-visible, button:focus-visible { outline: 3px solid rgba(29, 95, 209, .5); outline-offset: 1px; }
+button { margin-top: 12px; padding: 10px 18px; border: 0; border-radius: 6px; background: #1d5fd1; color: #fff; font: inherit; cursor: pointer; }
+button:disabled { opacity: .6; cursor: wait; }
+#erro-senha { color: #b91c1c; min-height: 1.5em; }
+small { color: #5f6b7a; }
+@media (prefers-color-scheme: dark) { body { background: #0f141a; color: #e6eaef; } input { background: #161c24; color: #e6eaef; } #erro-senha { color: #fca5a5; } small { color: #9aa6b4; } }
+</style>
+</head>
+<body data-cifrado data-iv="my2OeyWGSGRCePbs">
+<main>
+<h1>Protótipos OrenOn™</h1>
+<p>Acesso restrito. Informe a senha recebida; o navegador a guarda para as próximas telas.</p>
+<form id="formulario-senha" hidden>
+<label for="senha">Senha</label>
+<input id="senha" type="password" autocomplete="current-password" required>
+<p id="erro-senha" role="alert"></p>
+<button type="submit">Abrir</button>
+</form>
+<noscript><p>Ative o JavaScript do navegador para abrir os protótipos.</p></noscript>
+<p><small>Protótipos de tela com dados fictícios.</small></p>
+</main>
+<script id="cifrado" type="application/octet-stream">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</script>
+<script src="../../desbloquear.js"></script>
+</body>
+</html>

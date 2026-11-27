@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Protótipos OrenOn™ · acesso restrito</title>
+<style>
+:root { color-scheme: light dark; }
+body { margin: 0; min-height: 100vh; display: grid; place-items: center; font: 16px/1.5 system-ui, sans-serif; background: #f4f6f8; color: #1f2933; }
+main { max-width: 360px; padding: 24px; }
+label { display: block; font-weight: 600; margin-bottom: 6px; }
+input { width: 100%; box-sizing: border-box; padding: 10px; border: 1px solid #8a94a3; border-radius: 6px; font: inherit; }
+input:focus-visible, button:focus-visible { outline: 3px solid rgba(29, 95, 209, .5); outline-offset: 1px; }
+button { margin-top: 12px; padding: 10px 18px; border: 0; border-radius: 6px; background: #1d5fd1; color: #fff; font: inherit; cursor: pointer; }
+button:disabled { opacity: .6; cursor: wait; }
+#erro-senha { color: #b91c1c; min-height: 1.5em; }
+small { color: #5f6b7a; }
+@media (prefers-color-scheme: dark) { body { background: #0f141a; color: #e6eaef; } input { background: #161c24; color: #e6eaef; } #erro-senha { color: #fca5a5; } small { color: #9aa6b4; } }
+</style>
+</head>
+<body data-cifrado data-iv="Rsa6IsBMvIcLABRf">
+<main>
+<h1>Protótipos OrenOn™</h1>
+<p>Acesso restrito. Informe a senha recebida; o navegador a guarda para as próximas telas.</p>
+<form id="formulario-senha" hidden>
+<label for="senha">Senha</label>
+<input id="senha" type="password" autocomplete="current-password" required>
+<p id="erro-senha" role="alert"></p>
+<button type="submit">Abrir</button>
+</form>
+<noscript><p>Ative o JavaScript do navegador para abrir os protótipos.</p></noscript>
+<p><small>Protótipos de tela com dados fictícios.</small></p>
+</main>
+<script id="cifrado" type="application/octet-stream">GRX+I6jDV1YJBCLtRThlaHx5CLg+LZrzQT96ONDclE+HwQQpFwWPGd2zFw/fwQzDog4uKejEfBMPq6I5+4pqiVdqCSKwbWI3xXbWZNx1iB9JDhLoOCSSy9UT7crjgd+UCbonIieyXjKWlfRr2e2buxEXWl6dTnRvXaIgP692W36gvESRIm+NBifCdZNP+W20icCHOQK85FCR272YVDpx49t8B6sqicv77IB8BcvKfYkIWbf2ZSSaxhVlJUvhVqOdSaWgAZBdRtCKmsxZuYVA7WbfCVtFCFANcxSfF85BJfXbk0stOrhXVHU7Rt9KL5woys7rMLy9Vd77zL/LgqybpwUQwAhKxNSVsrjcaMaYI1wS4vp6fp+cy7G7drMn6gcphG9sm06a6iy1mZeG7E0ZUlrCdm83FqcDxMb5oIi6+E/d5PXiwzMcRdfYSAfHIQGOhTVqoOV4lpkn9pVJz1dNalBxcnchunNqWkpKMW8JT94HOzPIBBbX9Wm6zIBls7v8iwTkFXjb3W9FSo6j3xYulJ4msAeQcHvaz1z9SGCU93cAcjGTPVA35RR/RJe5YlgPldwcWj1R+XTbqvLIQp4la4ucR28qiuK6GwSbG8CdAlmSZSwNaiMcEl9LImJcYYlNtXHChZq24gtEkm+Zu3gkAmF4asWTciVCwu2rWgluDK8OvluSMskz07z2BYyThB/j1WfWH8ocYR5vpy5TdpPORS804JqQM7ABc7wVX9d7w+djBuMB5xRiKlDziXSVrFD6OoB2STwZa4DObj8OR2z9pmAKLU8QqRp61Ch+e0TJVZNfeWz4qziYqM3J2W2+J7wil9VxLXu1XERrgArxAWx/JjrRkBvn7EjvoOVG2O//lh22BtZUsZB27CqmN5QIQLJiMoiHgLtiSQ6+/PVWXzBvY8AlaoJqhZ6+7Kpa96VJ8zO7IcxQimuj6zi0mOXwnKniv+XR2oHTIklQeyG+oBXIitYBfXrUy2boylqJ/0cCvkm3jii7Fy9Hfu1C/xVjljuLtH6c0NcGqaiKDhn6DG+Ix3BwbJpRvWj9toFnASJx0L4tbxAzAXt6Qf1vls5T3783Xp1c1t46e5bSrj//53Ak+LOsczGD8NwIHjivvSgtxhdHtGe3qsU29oR6mVJJyryF03IH5inTcHJK96KhGJNQnkrxTdh1G1N0keb9xp3TkQXZ1Dk0klo+DLEEE/gOSWMlWFq4WezkhAd8B8rBAHL0FrhZJBVoVLjC6p+cufNJyNpF+d8Oy1YyDt+mqvS4HqZ7M7OkspnB2OJRssfMe1VRaVykr7zY0YFv9WWAZxuZrl0u31Cyp/cEOLXZ3abr4zvUakwFP+SnQZHIol4PbdCMUPgBYRt4S4qrqKKwcC3ICCDNL1pd2u6d3CorkLGWlHMAdzIaMVdq3EQQ7YutvvQWTgF/HDes1cuVljr4vvUo26VxaHUhxhgas5RN1KE/KueKzR+HutqBt536CGGbT1x27hlrvtEsqpbPGXguUBXbLNPGoRRq/nOTWJjlayy2ua46iYkGml1hQoZO0BG3ZpWE8tILu2H0QC0upzTFFtdJYPoxWWkPx9q9qqz5/1v+IPxE6rLSQ133wxYsdAsyKzRHdxLnuZQMDxkni5a1eUrDsoot1IJ9AGWC0Y5la77ovcgjG2LoTAZY8IYM0HdqcA1aXdSxGs6LL82YmZahrejOscmY+VxtjHL6BJsngk8C/K8Tg6uo8WhblSQYb6Mo/vYPwPiFG7KqWoVIEyzLD/vzV+wmkPNRhayMhugcUrW3FuQ2s/ZJE3QSlUI/R+APmLOl9KpUmVY5hxnblMwooKklOxyofThSgOCrn7/ymSJj1nmANxbARP6O+1T0afPkgJMVl73ScoOqLGEzTvlXddVEXig=</script>
+<script src="desbloquear.js"></script>
+</body>
+</html>
